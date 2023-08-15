@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!-- Add styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Registration</h2>
+
+<form id="registrationForm">
+    <label for="firstName">First Name <span class="mandatory">*</span>:</label>
+    <input type="text" id="firstName" value="Krishan" required>
+    
+    <label for="lastName">Last Name <span class="mandatory">*</span>:</label>
+    <input type="text" id="lastName" value="Ranghar" required>
+    
+    <label for="email">Email Address <span class="mandatory">*</span>:</label>
+    <input type="email" id="email" value="krishan.ranghar@gmail.com" required>
+    
+    <label for="password">Password: <span class="mandatory">*</span>:</label>
+    <input type="password" id="password" required>
+    
+    <label for="confirmPassword">Confirm Password: <span class="mandatory">*</span>:</label>
+    <input type="password" id="confirmPassword" required>
+    
+    <label for="dob">Date of Birth <span class="mandatory">*</span>:</label>
+    <input type="date" id="dob" value="1982-10-04" required>
+    
+    <label for="address1">Address Line 1 <span class="mandatory">*</span>:</label>
+    <input type="text" id="address1" value="20 Canal Street" required>
+    
+    <label for="address2">Address Line 2:</label>
+    <input type="text" id="address2" value="Fish Market" >
+    
+    <label for="city">City <span class="mandatory">*</span>:</label>
+    <input type="text" id="city" value="London" required>
+    
+    <label for="postcode">Post Code <span class="mandatory">*</span>:</label>
+    <input type="text" id="postcode" value="LT10 BX2" required>
+
+    <input type="submit" value="Register">
+</form>
+
+<!-- Include your JS logic -->
+<script src="script.js"></script>
+
+</body>
+</html>
