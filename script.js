@@ -3,7 +3,6 @@ let forbiddenPasswords = [];
 fetch('forbiddenPasswords.json')
     .then(response => response.json())
     .then(data => forbiddenPasswords = data);
-console.log(data);
 
 document.getElementById('registrationForm').addEventListener('submit', function(e) {
     e.preventDefault();
